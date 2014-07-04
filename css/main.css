@@ -2,9 +2,7 @@ body {
 	background-color: black;
 }
 
-.main {
 
-}
 .main {
 	background-color: white;
 	margin-top: 110px;
@@ -13,7 +11,7 @@ body {
 	height: 500px;
 }
 .hadouken {
-	background-image: url("file:///Users/Jacqui/Desktop/Coatzl/html-101/jquery-streetfighter-master/images/hadouken.gif");
+	background-image: url("images/hadouken.gif");
 	width: 156px;
 	height: 90px;
 	display: none;
@@ -25,6 +23,9 @@ body {
 .ryu {
 	float:left;
 }
+.ryu-cool{
+	background-image: url("images/ryu-cool.gif");
+}
 .ryu-ready, .ryu-still, .ryu-throwing {
 	width: 659px;
 	height: 494px;
@@ -34,14 +35,14 @@ body {
 
 }
 .ryu-ready {
-	background-image: url("file:///Users/Jacqui/Desktop/Coatzl/html-101/jquery-streetfighter-master/images/ryu-ready-position.gif");
+	background-image: url("images/ryu-ready-position.gif");
 }
 .ryu-still {
-	background-image: url("file:///Users/Jacqui/Desktop/Coatzl/html-101/jquery-streetfighter-master/images/ryu-standing-still.png");
+	background-image: url("images/ryu-standing-still.png");
 
 }
 .ryu-throwing{
-	background-image: url("file:///Users/Jacqui/Desktop/Coatzl/html-101/jquery-streetfighter-master/images/ryu-throwing-hadouken.png");
+	background-image: url("ryu-throwing-hadouken.png");
 }
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
 	background-repeat: no-repeat;
